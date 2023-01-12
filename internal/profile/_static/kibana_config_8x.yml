@@ -5,6 +5,8 @@ server.ssl.certificate: "/usr/share/kibana/config/certs/cert.pem"
 server.ssl.key: "/usr/share/kibana/config/certs/key.pem"
 server.ssl.certificateAuthorities: ["/usr/share/kibana/config/certs/ca-cert.pem"]
 
+telemetry.optIn: false
+
 elasticsearch.hosts: [ "https://elasticsearch:9200" ]
 elasticsearch.ssl.certificateAuthorities: "/usr/share/kibana/config/certs/ca-cert.pem"
 elasticsearch.serviceAccountToken: "AAEAAWVsYXN0aWMva2liYW5hL2VsYXN0aWMtcGFja2FnZS1raWJhbmEtdG9rZW46b2x4b051SWNRa0tYMHdXazdLWmFBdw"
